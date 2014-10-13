@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>dra</string>
+	</array>
+	<key>name</key>
+	<string>DRAMA</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>comment</key>
+			<string>Comment</string>
+			<key>match</key>
+			<string>\|(.*)</string>
+			<key>name</key>
+			<string>comment.source.dra</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Registers R0-R9</string>
+			<key>match</key>
+			<string>\b(R[0-9])\b</string>
+			<key>name</key>
+			<string>constant.language.source.dra</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Keywords</string>
+			<key>match</key>
+			<string>\b(HIA|OPT|AFT|BIG|VER|VGL|VSP|SPR|DEL|MOD|RESGR|SBR|BST|HST|KTG)\b</string>
+			<key>name</key>
+			<string>keyword.source.dra</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Comparison variables</string>
+			<key>match</key>
+			<string>\b(NUL|NNUL|POS|NPOS|NEG|NNEG|GEL|NGEL|GRG|GR|KL|KLG)\b</string>
+			<key>name</key>
+			<string>keyword.source.dra</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Special keywords without parameters</string>
+			<key>match</key>
+			<string>\b(LEZ|DRU|STP|EINDPR|DRS|NWL|)\b</string>
+			<key>name</key>
+			<string>entity.name.function.source.dra</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Constant numeric</string>
+			<key>match</key>
+			<string>[-+]?\b\d+\b</string>
+			<key>name</key>
+			<string>variable.parameter.source.dra</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.source.dra</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>String (maybe \w*(?=:) is a better regex? Don't know the DRAMA syntax too well</string>
+			<key>match</key>
+			<string>((?!\t).*(?=:))|([a-zA-Z0-9]+\n)|([a-zA-Z0-9]+)(?=\()</string>
+			<key>name</key>
+			<string>string.source.dra</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.dra</string>
+	<key>uuid</key>
+	<string>b82b89af-334e-46b5-aaff-1858275ccff1</string>
+</dict>
+</plist>

@@ -1,0 +1,38 @@
+{ "name": "DRAMA",
+  "scopeName": "source.dra",
+  "fileTypes": ["dra"],
+  "patterns": [
+	  { "match": "\\|(.*)",
+	    "name": "comment.source.dra",
+	    "comment": "Comment"
+	  },
+	  { "match": "\\b(R[0-9])\\b",
+	    "name": "constant.language.source.dra",
+	    "comment": "Registers R0-R9"
+	  },
+	  { "match": "\\b(HIA|OPT|AFT|BIG|VER|VGL|VSP|SPR|DEL|MOD|RESGR|SBR|BST|HST|KTG)\\b",
+	    "name": "keyword.source.dra",
+	    "comment": "Keywords"
+	  },
+	  { "match": "\\b(NUL|NNUL|POS|NPOS|NEG|NNEG|GEL|NGEL|GRG|GR|KL|KLG)\\b",
+	    "name": "keyword.source.dra",
+	    "comment": "Comparison variables"
+	  },
+	  { "match": "\\b(LEZ|DRU|STP|EINDPR|DRS|NWL|)\\b",
+	    "name": "entity.name.function.source.dra",
+	    "comment": "Special keywords without parameters"
+	  },
+	  { "match": "[-+]?\\b\\d+\\b",
+	    "name": "variable.parameter.source.dra",
+	    "comment": "Constant numeric"
+	  },
+	  { "match": "((?!\\t).*(?=:))|([a-zA-Z0-9]+\\n)|([a-zA-Z0-9]+)(?=\\()",
+	    "name": "string.source.dra",
+	    "captures": {
+      		"1": { "name": "string.source.dra" }
+   		},
+	    "comment": "String (maybe \\w*(?=:) is a better regex? Don't know the DRAMA syntax too well"
+	  }
+  ],
+ "uuid": "b82b89af-334e-46b5-aaff-1858275ccff1"
+}
