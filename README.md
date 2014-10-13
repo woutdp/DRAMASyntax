@@ -6,4 +6,8 @@ This is a DRAMA syntax highlighter for Sublime Text 3. The DRAMA language create
 **Package control**: You can install DRAMASyntax with [package control](https://github.com/wbond/package_control_channel).  
 This is the recommended way.
 
-**Manual:** In linux go to your sublime config package folder located at '~/.config/sublime-text-3/Packages/'
+**Manual:** In linux go to your sublime config package folder located at 
+
+'''Shell
+~/.config/sublime-text-3/Packages/
+'''
