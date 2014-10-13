@@ -10,9 +10,9 @@ cd ~/.config/sublime-text-3/Packages/
 git clone https://github.com/woutdp/DRAMASyntax.git
 ```
 
-If you're in Windows try to find sublime-text-3/Packages/ folder and download as ZIP and extract into this. This should normally also do the trick.
+If you're in Windows try to find sublime-text-3/Packages/ folder and download as ZIP and extract into this. This should also do the trick.
 
-**Package Control:** If you use package control, this package will be added to package control in a couple of weeks/days. The developers of package control need to review it first.
+**Package Control:** This package will be added to package control in a couple of weeks/days. The developers of package control need to review it first.
 
 ## Usage
 After installing, open up a DRAMA file in Sublime and go to Tools->Syntax and select DRAMA. You should now see the text highlighted in color.
