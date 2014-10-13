@@ -17,4 +17,4 @@ If you're in Windows try to find sublime-text-3/Packages/ folder and download as
 ## Usage
 After installing, open up a DRAMA file in Sublime and go to Tools->Syntax and select DRAMA. You should now see the text highlighted in color.
 
-<div style="text-align:center">![Example](https://cloud.githubusercontent.com/assets/3637265/4618550/d310c914-530a-11e4-87b2-d8798f6735be.png)</div>
+![Example](https://cloud.githubusercontent.com/assets/3637265/4618550/d310c914-530a-11e4-87b2-d8798f6735be.png)
