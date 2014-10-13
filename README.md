@@ -4,10 +4,11 @@ This is a DRAMA syntax highlighter for Sublime Text 3. The DRAMA language create
 
 ## Installation
 **Package control**: You can install DRAMASyntax with [package control](https://github.com/wbond/package_control_channel).  
-This is the recommended way.
+This is the recommended way. **It could be that the package isn't online yet!**
 
-**Manual:** In linux go to your sublime config package folder located at 
+**Manual:** In linux, execute the following commands: 
 
-'''Shell
-~/.config/sublime-text-3/Packages/
-'''
+```
+cd ~/.config/sublime-text-3/Packages/
+git clone https://github.com/woutdp/DRAMASyntax.git
+```
