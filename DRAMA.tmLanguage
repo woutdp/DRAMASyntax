@@ -70,7 +70,7 @@
 			<key>comment</key>
 			<string>String (maybe \w*(?=:) is a better regex? Don't know the DRAMA syntax too well</string>
 			<key>match</key>
-			<string>((?!\t).*(?=:))|([a-zA-Z0-9]+\n)|([a-zA-Z0-9]+)(?=\()</string>
+			<string>(\w.*(?=:))|([a-zA-Z0-9]+(?=\n))|([a-zA-Z0-9]+)(?=\()</string>
 			<key>name</key>
 			<string>string.source.dra</string>
 		</dict>

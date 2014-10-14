@@ -26,7 +26,7 @@
 	    "name": "variable.parameter.source.dra",
 	    "comment": "Constant numeric"
 	  },
-	  { "match": "((?!\\t).*(?=:))|([a-zA-Z0-9]+\\n)|([a-zA-Z0-9]+)(?=\\()",
+	  { "match": "(\\w.*(?=:))|([a-zA-Z0-9]+(?=\\n))|([a-zA-Z0-9]+)(?=\\()",
 	    "name": "string.source.dra",
 	    "captures": {
       		"1": { "name": "string.source.dra" }
