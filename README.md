@@ -14,7 +14,7 @@ git clone https://github.com/woutdp/DRAMASyntax.git
 
 If you're in Windows go to C:/program files/sublime text 3/Packages/ folder and download as ZIP. Change the .zip extension to .sublime-package. This should also do the trick.
 
-**Package Control:** This package will be added to package control in a couple of weeks/days. When you download it trough package control you will automatically get the latest updates and patches.
+**Package Control:** This package will be added to package control in a couple of weeks/days. When you download it through package control you will automatically get the latest updates and patches.
 
 ## Usage
 After installing, open up a DRAMA file in Sublime and go to View->Syntax and select DRAMA. You should now see the text highlighted in color.
