@@ -3,35 +3,35 @@
   "fileTypes": ["dra"],
   "patterns": [
 	  { "match": "\\|(.*)",
-	    "name": "comment.source.dra",
+	    "name": "comment.dra",
 	    "comment": "Comment"
 	  },
 	  { "match": "\\b(R[0-9])\\b",
-	    "name": "constant.language.source.dra",
+	    "name": "constant.language.dra",
 	    "comment": "Registers R0-R9"
 	  },
 	  { "match": "\\b(HIA|OPT|AFT|BIG|VER|VGL|VSP|SPR|DEL|MOD|RESGR|SBR|BST|HST|KTG)\\b",
-	    "name": "keyword.source.dra",
+	    "name": "keyword.dra",
 	    "comment": "Keywords"
 	  },
 	  { "match": "\\b(NUL|NNUL|POS|NPOS|NEG|NNEG|GEL|NGEL|GRG|GR|KL|KLG)\\b",
-	    "name": "keyword.source.dra",
+	    "name": "keyword.dra",
 	    "comment": "Comparison variables"
 	  },
 	  { "match": "\\b(LEZ|DRU|STP|EINDPR|DRS|NWL|)\\b",
-	    "name": "entity.name.function.source.dra",
+	    "name": "entity.name.function.dra",
 	    "comment": "Special keywords without parameters"
 	  },
 	  { "match": "[-+]?\\b\\d+\\b",
-	    "name": "variable.parameter.source.dra",
+	    "name": "variable.parameter.dra",
 	    "comment": "Constant numeric"
 	  },
 	  { "match": "(\\w.*(?=:))|([a-zA-Z0-9_]+(?=\\n))|([a-zA-Z0-9_]+)(?=( *\\||\\())",
-	    "name": "string.source.dra",
+	    "name": "string.dra",
 	    "captures": {
-      		"1": { "name": "string.source.dra" }
+      		"1": { "name": "string.dra" }
    		},
-	    "comment": "String (maybe \\w*(?=:) is a better regex? Don't know the DRAMA syntax too well"
+	    "comment": "String highlighting"
 	  }
   ],
  "uuid": "b82b89af-334e-46b5-aaff-1858275ccff1"

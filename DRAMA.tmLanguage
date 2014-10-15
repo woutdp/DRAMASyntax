@@ -16,7 +16,7 @@
 			<key>match</key>
 			<string>\|(.*)</string>
 			<key>name</key>
-			<string>comment.source.dra</string>
+			<string>comment.dra</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -24,7 +24,7 @@
 			<key>match</key>
 			<string>\b(R[0-9])\b</string>
 			<key>name</key>
-			<string>constant.language.source.dra</string>
+			<string>constant.language.dra</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -32,7 +32,7 @@
 			<key>match</key>
 			<string>\b(HIA|OPT|AFT|BIG|VER|VGL|VSP|SPR|DEL|MOD|RESGR|SBR|BST|HST|KTG)\b</string>
 			<key>name</key>
-			<string>keyword.source.dra</string>
+			<string>keyword.dra</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -40,7 +40,7 @@
 			<key>match</key>
 			<string>\b(NUL|NNUL|POS|NPOS|NEG|NNEG|GEL|NGEL|GRG|GR|KL|KLG)\b</string>
 			<key>name</key>
-			<string>keyword.source.dra</string>
+			<string>keyword.dra</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -48,7 +48,7 @@
 			<key>match</key>
 			<string>\b(LEZ|DRU|STP|EINDPR|DRS|NWL|)\b</string>
 			<key>name</key>
-			<string>entity.name.function.source.dra</string>
+			<string>entity.name.function.dra</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -56,7 +56,7 @@
 			<key>match</key>
 			<string>[-+]?\b\d+\b</string>
 			<key>name</key>
-			<string>variable.parameter.source.dra</string>
+			<string>variable.parameter.dra</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -64,15 +64,15 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>string.source.dra</string>
+					<string>string.dra</string>
 				</dict>
 			</dict>
 			<key>comment</key>
-			<string>String (maybe \w*(?=:) is a better regex? Don't know the DRAMA syntax too well</string>
+			<string>String highlighting</string>
 			<key>match</key>
 			<string>(\w.*(?=:))|([a-zA-Z0-9_]+(?=\n))|([a-zA-Z0-9_]+)(?=( *\||\())</string>
 			<key>name</key>
-			<string>string.source.dra</string>
+			<string>string.dra</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
