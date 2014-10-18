@@ -30,7 +30,7 @@
 			<key>comment</key>
 			<string>Keywords</string>
 			<key>match</key>
-			<string>\b(HIA|OPT|AFT|BIG|VER|VGL|VSP|SPR|DEL|MOD|RESGR|SBR|BST|HST|KTG)\b</string>
+			<string>\b(HIA|OPT|AFT|BIG|VER|VGL|VSP|SPR|DEL|MOD|RESGR|SBR|BST|HST)\b</string>
 			<key>name</key>
 			<string>keyword.dra</string>
 		</dict>
@@ -46,7 +46,7 @@
 			<key>comment</key>
 			<string>Special keywords without parameters</string>
 			<key>match</key>
-			<string>\b(LEZ|DRU|STP|EINDPR|DRS|NWL|)\b</string>
+			<string>\b(LEZ|DRU|STP|EINDPR|DRS|NWL|KTG)\b</string>
 			<key>name</key>
 			<string>entity.name.function.dra</string>
 		</dict>
