@@ -5,6 +5,8 @@ This is a DRAMA syntax highlighter for Sublime Text 3. The DRAMA language create
 There was no syntax highlighting available so I created my own. The syntax coding isn't 100% correct since it's a bit different than most languages. The syntax coding was created with the monokai color scheme in mind, but will look fine with most color schemes.
 
 ## Installation
+**Package Control:** You can install this through [Package Control](https://sublime.wbond.net/). You will automatically get the latest patches.
+
 **Manual:** In linux, execute the following commands:
 
 ```
@@ -13,8 +15,6 @@ git clone https://github.com/woutdp/DRAMASyntax.git
 ```
 
 If you're in Windows go to C:/program files/sublime text 3/Packages/ folder and download as ZIP. Change the .zip extension to .sublime-package. This should also do the trick.
-
-**Package Control:** This package will be added to package control in a couple of weeks/days. When you download it through package control you will automatically get the latest updates and patches.
 
 ## Usage
 After installing, open up a DRAMA file in Sublime and go to View->Syntax and select DRAMA. You should now see the text highlighted in color.
